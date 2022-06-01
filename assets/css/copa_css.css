@@ -1,0 +1,523 @@
+/*=================================================
+=============Style sheet for Copa=================
+* "1"  Hero Section
+* "2"  Slider Settings
+* "3"  General style
+* "4"  Heading font size and style
+* "5"  Border & shadow style of divs
+* "6"  Owl-carousel style
+* "7"  General style of Divs and Images
+* "8"  Background of divs
+* "9"  Social Media style
+* "10"  Images slide style
+* "11" Pricing Table style
+* "12" Footer style
+===================================================*/
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+/*===================================================
+*
+* Hero Section Starts
+*
+===================================================*/
+.imgbg {
+	position: relative;
+}
+.imgbg .img{
+	height: 100vh;
+	width: 100%;
+}
+
+.imgbg .navbrst {
+	position: absolute;
+	top: 0;
+}
+.navbar-blue .navbar-nav .nav-link:focus, .navbar-blue .navbar-nav .nav-link:hover {
+   
+    color: #000080 !important;
+    opacity: 1;
+}
+.navbar-orange .navbar-nav .nav-link:focus, .navbar-orange .navbar-nav .nav-link:hover {
+   
+    color: #ff4500 !important;
+    opacity: 1;
+}
+.navbrst {
+	width: 100%;
+	background-color: transparent; 
+}
+.search-btn{
+	color: #000000;
+	border: none;
+}
+.navbar-light .navbar-toggler,.navbar-light .navbar-toggler:focus{
+	border:none !important;
+	outline: none !important;
+}
+.nav-link{
+	font-weight: 700;
+}
+/*.search-btn:hover{
+	color: white;
+	background-color: black;
+	border: 3px solid #fff;
+}*/
+@media only screen and (max-width: 992px){
+.navbar-collapse {
+	margin-top: 10px !important;
+	background: #fff;
+	margin: -.5rem -1rem;
+	padding: .5rem 1rem;
+}
+}
+/*===================================================
+*
+* Slider Setting
+*
+===================================================*/
+.carousel-inner{
+  width:100%;
+  max-height: 100vh !important;
+
+}
+/*===================================================
+*
+* General style
+*
+===================================================*/
+a{
+	cursor: pointer;
+}
+.pl-0{
+	padding-left: 0px !important;
+}
+.pt-2{
+	padding-top: 20px !important;
+}
+.pt-3{
+	padding-top: 30px;
+}
+.pt-5{
+	padding-top: 50px;
+}
+.mb-2{
+	margin-bottom: 20px;
+}
+.mb-3{
+	margin-bottom: 30px;
+}
+.mb-5{
+	margin-bottom: 50px;
+}
+.pb-5{
+	padding-bottom: 50px;
+}
+.ml2{
+	margin-left: 20px;
+}
+.mr2{
+	margin-right: 20px;
+}
+.mt-10{
+	margin-top: 100px;
+}
+.mt-5{
+	margin-top: 50px;
+}
+.pt-10{
+	padding-top: 100px;
+}
+.pb-10{
+	padding-bottom: 100px;
+}
+.mb-10{
+	margin-bottom: 100px;
+}
+.plr-2{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.ptb-1{
+	    padding: 10px 20px;
+}
+/*===================================================
+*
+* Heading font size and style
+*
+===================================================*/
+.heading ,.headingv2{
+	font-weight: 800;
+}
+h4,h5,h6{
+	font-weight: 400;
+}
+h3{
+	font-weight: 700;
+}
+.heading::after{
+	top: 10px;
+    left: 50%;
+    position: relative;
+    content: "";
+    display: table;
+    width: 2em;
+    height: 1px;
+   transform: translate(-50%,-50%);
+    background-color: black;
+    margin-bottom: 20px;
+}
+.headingv2::after{
+	top: 10px;
+    left: 50%;
+    position: relative;
+    content: "";
+    display: table;
+    width: 2em;
+    height: 1px;
+   transform: translate(-50%,-50%);
+    background-color: #ff4500;
+    margin-bottom: 20px;
+}
+.heading1::after{
+	top: 10px;
+    left: 50%;
+    position: relative;
+    content: "";
+    display: table;
+    width: 2em;
+    height: 1px;
+   transform: translate(-50%,-50%);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.heading-color{
+	color: #000080;
+}
+.heading-color2{
+	color: #ff4500;
+}
+/*===================================================
+*
+* Border & shadow style of divs
+*
+===================================================*/
+.border{
+	padding-bottom: 20px;
+	padding-top: 20px; 
+	
+	border: solid 2px;
+	background-color: #f8f8f8;
+	
+
+}
+.border:hover{
+	    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    transition: 0.5s;
+
+}
+.border:hover .heading::after{
+	background-color: #000080;
+}
+.con{
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+	
+	overflow: hidden;
+}
+/*===================================================
+*
+* Owl-carousel style
+*
+===================================================*/
+.overly{
+	min-height: 600px;
+	background: linear-gradient(rgba(0,0,0,.9),	rgba(0, 0, 0, 0.45)),url("../../images/bk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	
+}
+.owl-div{
+	
+	margin-top: 20%;
+	color: #fff;
+	border: solid 1px;
+	border-radius: 15px;
+	border-color: #fff;
+	margin-left: 15px;
+    margin-right: 15px;
+}
+.imgd{
+	    margin-top: 20px;
+    margin-bottom: 20px;
+	height:  160px ;
+	width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.imgd img{
+	height: 160px;
+    width: 160px;
+    border-radius: 50%;
+
+}
+/*===================================================
+*
+* General style of Divs and Images
+*
+===================================================*/
+
+.divprop{
+	height: 215px;
+	width: 100%;
+	overflow: hidden;
+}
+.divprop img{
+	width: 100%;
+	height: 100%;
+}
+.team img{
+	  display: block;
+  opacity: 0.95;
+  position: relative;
+  transition: opacity 0.35s ease 0s, transform 1.35s ease 0s;
+}
+.team:hover img{
+	  opacity: 0.22;
+  transform: scale3d(1.1, 1.2, 1);
+}
+.round{
+	border-radius: 90px;
+	background-color: black;
+	    display: inline-block;
+    width: 150px;
+    border-radius: 50%;
+    color: #fff;
+    height: 150px; 
+}
+.round2{
+	border-radius: 90px;
+	background-color: #fff;
+	    display: inline-block;
+    width: 150px;
+    border-radius: 50%;
+    color: #000;
+    height: 150px; 
+}
+.contentdiv{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: solid 2px;
+	border-color: #f8f8f8;
+
+}
+.divs{
+	background-color: #2b2621;
+	color: #fff;
+
+}
+.contentdivp{
+	padding-top: 10%;
+}
+.contentdivp2{
+	padding-top: 6%;
+}
+.contentdivp3{
+	padding-top: 8%;
+}
+/*===================================================
+*
+* Background of divs
+*
+===================================================*/
+.divbg{
+	background-color: #f8f8f8;
+	padding-top: 15px;
+}
+.bdiv{
+	background-image:  url("../../images/bk3.jpg");
+	min-height: 300px;
+	background-size:cover;
+	background-repeat: no-repeat; 
+	color: #fff;
+}
+.bdiv1{
+	background-image:  url("../../images/bk4.jpg");
+	min-height: 300px;
+	color: #fff;
+}
+.bdiv1v2{
+	background-color: #000000;
+	min-height: 300px;
+	color: #fff;
+	background-size:cover;
+	background-repeat: no-repeat; 
+}
+.logodiv{
+	background-image: url("../../images/bk5.jpg");
+	min-height: 300px;
+	background-size:cover;
+	background-repeat: no-repeat; 
+	
+}
+.logodiv2{
+	background-color: #000000;
+	min-height: 200px;
+}
+/*===================================================
+*
+* Social Media style
+*
+===================================================*/
+.social-media-list-footer li {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+
+}
+.social-media-list-footer ul{
+	    padding-left: : 0px !important;
+}
+.social-media-list-footer li a i {
+    line-height: 34px;
+}
+.social-media-list-footer li a {
+    line-height: 34px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.icon:hover .fa, .icon:hover .icon {
+  color: #000080;
+  opacity: 0.35;
+  transform: translateY(1.875em) scale(2);
+  /*transition: opacity 0.75s ease 0s, transform 1200ms ease-out 0ms;*/
+  transition: transform 1s ease 0s;
+
+}
+.fa{
+	color: black;
+}
+.fa:hover{
+	color: #ababad;
+}
+/*===================================================
+*
+* Images slide style
+*
+===================================================*/
+/*.slide{
+	width: 350px;
+	height: 232px;
+	overflow: hidden;
+}*/
+.img-h{
+	height:  232px;
+}
+/*===================================================
+*
+* Pricing Table style
+*
+===================================================*/
+.table{
+	    border-top: 4px solid #000080;
+	box-shadow: 0 0px 20px rgba(0,0,0,.05);
+	background-color: #f6f6f6;
+}
+.table:hover{
+	box-shadow: 0px 20px 30px rgba(0,0,0,0.15);
+	transform: translateY(-2%);
+}
+.tablev2{
+	    border-top: 4px solid #ff4500;
+	    border-bottom: 4px solid #ff4500;
+	   /* border-left: 4px solid #ff4500;
+	    border-right:4px solid #ff4500; */
+	    border-radius: 15px;
+	box-shadow: 0 0px 20px rgba(0,0,0,.05);
+	background-color: #f6f6f6;
+}
+.tablev2:hover{
+	box-shadow: 0px 20px 30px rgba(0,0,0,0.15);
+	transform: translateY(-2%);
+}
+.btn{
+	background-color: #000080;
+	color: #fff;
+	border: none;
+}
+.btn:hover{
+	background-color: #fff !important;
+	color: #000080 !important;
+	border: none;
+}
+.btnv2{
+	background-color: #ff4500;
+	color: #fff;
+	border: none;
+	margin-bottom: 15px;
+}
+.btnv2:hover{
+	background-color: #fff !important;
+	color: #ff4500 !important;
+	
+}
+.centerp{
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+.centerp .price{
+    font-family: "Novecento",sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.875em 0;
+    color: #000080;
+}
+.centerp .pricev2{
+    font-family: "Novecento",sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.875em 0;
+    color: #ff4500;
+}
+.centerp .title{
+	font-family: "Novecento",sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.list-group{
+
+	    list-style: none;
+}
+.list-group-item{
+	background-color: #f6f6f6;
+}
+/*===================================================
+*
+* Footer style
+*
+===================================================*/
+.ends{
+	min-height: 60px;
+	background-color: black;
+	color: #fff;
+}
+.ends p{
+	padding-top: 15px;
+margin-bottom: 0px !important;	
+}
+.btn-m{
+	float: right;
+}
+.fa-envelope-orange{
+	color: #ff4500;
+}
+.pdlft{
+	    padding-left: 180px !important;
+	    text-align: left;
+}
